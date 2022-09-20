@@ -1,0 +1,112 @@
+.pd-wrapper {
+}
+
+.pd-name {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.pd-type {
+  margin: 5px 0;
+  font-size: 20px;
+  text-transform: capitalize;
+  opacity: 0.5;
+}
+
+.pd-reviews {
+  margin: 10px 0;
+  width: 100px;
+  padding: 3px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
+strong {
+  color: rgb(56, 188, 144);
+  font-size: 16px;
+}
+
+.pd-size {
+  width: 250px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.pd-size > p {
+  margin: 0;
+}
+.size {
+  font-size: 12px;
+  color: rgba(255, 63, 108, 0.979);
+}
+
+.pd-variant {
+  padding: 14px;
+  font-weight: bold;
+  border: solid 1px #000000;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 0.1s ease-in-out;
+}
+.pd-variant:hover {
+  color: #ff3e6c;
+  border: solid 1px #ff3e6c;
+}
+
+.pd-btn {
+  margin-bottom: 20px;
+}
+.btn {
+  padding: 15px;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn-cart {
+  background-color: #ff3e6c;
+  border: solid 1px #ff3e6c;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-cart:hover {
+  border: solid 1px #ff3e6c;
+  background-color: transparent;
+  color: #ff3e6c;
+}
+
+.delivery {
+  font-weight: bold;
+}
+.pincode {
+  border: 1px solid rgb(111, 111, 111);
+  width: 270px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.pin {
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 200px;
+}
+
+.check {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #ff3e6c;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.pd-delivery > h6 {
+  font-weight: 400;
+  margin: 5px 0;
+}

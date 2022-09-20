@@ -1,0 +1,24 @@
+.i-wrapper {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.i-details {
+  height: 450px;
+  width: 370px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.specs {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  cursor: zoom-in;
+  transition: transform 0.5s ease-in-out;
+}
+
+.specs:hover {
+  transform: scale(1.1);
+}

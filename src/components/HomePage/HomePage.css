@@ -1,0 +1,24 @@
+.h-wrapper {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 1.5px rgb(212, 212, 212);
+  padding: 10px 30px;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+select {
+  padding: 5px;
+}
+
+.home {
+  display: flex;
+}
+
+.str {
+  font-weight: bold;
+}
