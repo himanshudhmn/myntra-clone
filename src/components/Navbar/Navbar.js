@@ -44,8 +44,7 @@ const Navbar = (props) => {
           <div className="icon">
             <FontAwesomeIcon icon={faHeart} className="font-color" />
             <p>
-              Wishlist{" "}
-              {`${wishlistData?.length > 0 ? wishlistData.length : ""}`}
+              Wishlist {`${wishlistData.length > 0 ? wishlistData.length : ""}`}
             </p>
           </div>
         </div>
